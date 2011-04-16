@@ -3,6 +3,9 @@ package Text::Diff::Config;
 use strict;
 use warnings;
 
+use vars '$VERSION';
+$VERSION   = '1.40';
+
 use vars qw($Output_Unicode);
 
 BEGIN

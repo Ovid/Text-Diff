@@ -7,7 +7,7 @@ use vars qw{$VERSION @ISA @EXPORT_OK};
 use Text::Diff::Config;
 
 BEGIN {
-    $VERSION   = '1.37';
+    $VERSION   = '1.40';
     @ISA       = qw( Text::Diff::Base Exporter );
     @EXPORT_OK = qw( expand_tabs );
 }
