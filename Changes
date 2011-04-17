@@ -1,5 +1,8 @@
 Changes for Perl extension Text-Diff
 
+1.41 Sun 17 Apr 2011
+    - Add Text::Dif::Config to MANIFEST.
+
 1.40 Sat 16 Apr 2011
     - Added DIFF_OUTPUT_UNICODE env variable to allow outputting unicode
       characters. Thanks to Shlomi Fish for the patch.

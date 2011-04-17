@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use vars '$VERSION';
-$VERSION   = '1.40';
+$VERSION   = '1.41';
 
 use vars qw($Output_Unicode);
 

@@ -1,5 +1,6 @@
 Changes
 lib/Text/Diff.pm
+lib/Text/Diff/Config.pm
 lib/Text/Diff/Table.pm
 LICENSE
 Makefile.PL
