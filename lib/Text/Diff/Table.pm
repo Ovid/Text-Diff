@@ -349,7 +349,7 @@ diffs:
 This format also goes to some pains to highlight "invisible" characters on
 differing elements by selectively escaping whitespace.  Each element is split
 in to three segments (leading whitespace, body, trailing whitespace).  If
-whitespace differs in a segement, that segment is whitespace escaped.
+whitespace differs in a segment, that segment is whitespace escaped.
 
 Here is an example of the selective whitespace.
 
@@ -385,7 +385,7 @@ call; so far I'm choosing not to.
 
 =head1 UNICODE
 
-To output the raw unicode chracters consult the documentation of
+To output the raw unicode characters consult the documentation of
 L<Text::Diff::Config>. You can set the C<DIFF_OUTPUT_UNICODE> environment
 variable to 1 to output it from the command line. For more information,
 consult this bug: L<https://rt.cpan.org/Ticket/Display.html?id=54214> .

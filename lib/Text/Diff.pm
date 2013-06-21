@@ -431,7 +431,7 @@ following:
 
    require Text::Diff;
 
-That's a pretty rare occurence, so C<diff()> is exported by default.
+That's a pretty rare occurrence, so C<diff()> is exported by default.
 =head1 OPTIONS
 
 diff() takes two parameters from which to draw input and a set of
