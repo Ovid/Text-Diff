@@ -696,6 +696,23 @@ welcome.
 Uses closures internally, this may lead to leaks on C<perl> versions 5.6.1 and
 prior if used many times over a process' life time.
 
+=head1 SEE ALSO
+
+L<Algorithm::Diff> - the underlying implementation of the diff algorithm
+used by C<Text::Diff>.
+
+L<YAML::Diff> - find difference between two YAML documents.
+
+L<HTML::Diff> - find difference between two HTML documents.
+
+L<XML::Diff> - find difference between two XML documents.
+
+L<Array::Diff> - find the differences between two Perl arrays.
+
+L<Hash::Diff> - find the differences between two Perl hashes.
+
+L<Data::Diff> - find difference between two arbitrary data structures.
+
 =head1 AUTHOR
 
 Adam Kennedy E<lt>adamk@cpan.orgE<gt>
