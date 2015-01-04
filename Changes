@@ -3,6 +3,8 @@ Revision history for Perl module Text::Diff
 1.42 2015-01-?? OVID
     - Updated all modules to "use warnings", and use "our ...", so bumped
       min perl version to 5.006, and added MIN_PERL_VERSION to Makefile.PL
+    - RT#73505: if a file doesn't exist, you't get a warning about trying
+      to read a closed filehandle. Now we croak.
     - RT#94895: blank line needed for =head1 OPTIONS to format properly.
     - RT#51612: the '>' character needed escaping inside pod formatting code.
     - RT#25283: fixed syntax error in SYNOPSIS of Text::Diff::Table

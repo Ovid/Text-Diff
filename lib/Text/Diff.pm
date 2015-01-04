@@ -3,7 +3,7 @@ package Text::Diff;
 use 5.006;
 use strict;
 use warnings;
-use Carp;
+use Carp            qw/ croak /;
 use Exporter        ();
 use Algorithm::Diff ();
 
@@ -59,7 +59,7 @@ sub diff {
 	        unless defined $options->{"MTIME_$AorB"};
 
             local $/ = "\n";
-            open F, "<$seq" or carp "$!: $seq";
+            open F, "<$seq" or croak "$!: $seq";
             $seqs[$i] = [<F>];
             close F;
 
@@ -431,6 +431,9 @@ following:
    require Text::Diff;
 
 That's a pretty rare occurence, so C<diff()> is exported by default.
+
+If you pass a filename, but the file can't be read,
+then C<diff()> will C<croak>.
 
 =head1 OPTIONS
 
