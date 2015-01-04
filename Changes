@@ -9,6 +9,7 @@ Revision history for Perl module Text::Diff
     - RT#51612: the '>' character needed escaping inside pod formatting code.
     - RT#25283: fixed syntax error in SYNOPSIS of Text::Diff::Table
     - Reformatted this file as per CPAN::Changes::Spec
+    - Removed all tab characters from source
 
 1.41 2011-04-17 OVID
     - Add Text::Dif::Config to MANIFEST.
