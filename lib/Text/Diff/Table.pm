@@ -324,7 +324,7 @@ __END__
 
   use Text::Diff;
   
-  diff \@a, $b { STYLE => "Table" };
+  diff \@a, $b, { STYLE => "Table" };
 
 =head1 DESCRIPTION
 
