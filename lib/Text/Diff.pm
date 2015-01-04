@@ -473,8 +473,9 @@ If the package indicated by the STYLE has no hunk() method, c<diff()> will
 load it automatically (lazy loading).  Since all such packages should inherit
 from Text::Diff::Base, this should be marvy.
 
-Styles may be specified as class names (C<STYLE => "Foo"), in which case they
-will be C<new()>ed with no parameters, or as objects (C<STYLE => Foo->new>).
+Styles may be specified as class names (C<STYLE =E<gt> 'Foo'>),
+in which case they will be C<new()>ed with no parameters,
+or as objects (C<STYLE =E<gt> Foo-E<gt>new>).
 
 =item CONTEXT
 

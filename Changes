@@ -1,7 +1,8 @@
 Revision history for Perl module Text::Diff
 
 1.42 2015-01-?? OVID
-    - RT#94895: blank line needed for =head1 OPTIONS to format properly
+    - RT#94895: blank line needed for =head1 OPTIONS to format properly.
+    - RT#51612: the '>' character needed escaping inside pod formatting code.
     - Reformatted this file as per CPAN::Changes::Spec
 
 1.41 2011-04-17 OVID
