@@ -1,16 +1,15 @@
 package Text::Diff;
 
-use 5.00503;
+use 5.006;
 use strict;
+use warnings;
 use Carp;
 use Exporter        ();
 use Algorithm::Diff ();
-use vars qw{$VERSION @ISA @EXPORT};
-BEGIN {
-	$VERSION = '1.42';
-	@ISA     = 'Exporter';
-	@EXPORT  = 'diff';
-};
+
+our $VERSION = '1.42';
+our @ISA     = qw/ Exporter /;
+our @EXPORT  = qw/ diff /;
 
 ## Hunks are made of ops.  An op is the starting index for each
 ## sequence and the opcode:
