@@ -15,4 +15,3 @@ t/inputs.t
 t/keygen.t
 t/outputs.t
 t/table.t
-META.yml                                 Module meta-data (added by MakeMaker)

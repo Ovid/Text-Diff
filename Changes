@@ -10,6 +10,7 @@ Revision history for Perl module Text::Diff
     - RT#25283: fixed syntax error in SYNOPSIS of Text::Diff::Table
     - Added SEE ALSO section to doc, with links to a bunch of Diff modules.
     - Added link to github repository in the doc
+    - Deleted META.yml from the repo -- EUMM will generate it for us
     - Reformatted this file as per CPAN::Changes::Spec
     - Removed all tab characters from source
 
