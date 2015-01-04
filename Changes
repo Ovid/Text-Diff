@@ -12,6 +12,7 @@ Revision history for Perl module Text::Diff
     - Added link to github repository in the doc
     - Deleted META.yml from the repo -- EUMM will generate it for us
     - Reformatted this file as per CPAN::Changes::Spec
+    - Added TODO.md, with two further things I can see need doing.
     - Removed all tab characters from source
 
 1.41 2011-04-17 OVID
