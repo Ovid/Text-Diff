@@ -3,7 +3,7 @@ package Text::Diff;
 use 5.006;
 use strict;
 use warnings;
-use Carp            qw/ croak /;
+use Carp            qw/ croak confess /;
 use Exporter        ();
 use Algorithm::Diff ();
 
