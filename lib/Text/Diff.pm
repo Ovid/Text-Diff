@@ -7,7 +7,7 @@ use Exporter        ();
 use Algorithm::Diff ();
 use vars qw{$VERSION @ISA @EXPORT};
 BEGIN {
-	$VERSION = '1.41';
+	$VERSION = '1.42';
 	@ISA     = 'Exporter';
 	@EXPORT  = 'diff';
 };
@@ -432,6 +432,7 @@ following:
    require Text::Diff;
 
 That's a pretty rare occurence, so C<diff()> is exported by default.
+
 =head1 OPTIONS
 
 diff() takes two parameters from which to draw input and a set of
