@@ -713,6 +713,10 @@ L<Hash::Diff> - find the differences between two Perl hashes.
 
 L<Data::Diff> - find difference between two arbitrary data structures.
 
+=head1 REPOSITORY
+
+L<https://github.com/Ovid/Text-Diff>
+
 =head1 AUTHOR
 
 Adam Kennedy E<lt>adamk@cpan.orgE<gt>
