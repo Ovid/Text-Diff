@@ -703,7 +703,8 @@ used by C<Text::Diff>.
 
 L<YAML::Diff> - find difference between two YAML documents.
 
-L<HTML::Diff> - find difference between two HTML documents.
+L<HTML::Differences> - find difference between two HTML documents.
+This uses a more sane approach than L<HTML::Diff>.
 
 L<XML::Diff> - find difference between two XML documents.
 
