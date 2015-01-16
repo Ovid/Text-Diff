@@ -5,6 +5,12 @@ BEGIN {
 }
 use ExtUtils::MakeMaker;
 
+my $mm_ver = $ExtUtils::MakeMaker::VERSION;
+if ($mm_ver =~ /_/) { # dev version
+    $mm_ver = eval $mm_ver;
+    die $@ if $@;
+}
+
 WriteMakefile(
     NAME         => 'Text::Diff',
     ABSTRACT     => 'Perform diffs on files and record sets',
@@ -24,4 +30,10 @@ WriteMakefile(
     ),
     META_MERGE =>
       { resources => { repository => 'https://github.com/Ovid/Text-Diff' } },
+
+    ($mm_ver >= 6.48
+        ? (MIN_PERL_VERSION => 5.006)
+        : ()
+    ),
+
 );
