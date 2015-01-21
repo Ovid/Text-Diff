@@ -277,6 +277,8 @@ sub file_footer {
         }
     }
 
+    no if $] >= '5.021002', warnings => 'redundant'; # sprintf may be called with too many args below
+
     my %fmts = $four_column_mode
         ? (
             "=" => "| %$w[0]s|%-$w[1]s  | %$w[2]s|%-$w[3]s  |\n",
