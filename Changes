@@ -8,6 +8,7 @@ Revision history for Perl module Text::Diff
     - RT#94895: blank line needed for =head1 OPTIONS to format properly.
     - RT#51612: the '>' character needed escaping inside pod formatting code.
     - RT#25283: fixed syntax error in SYNOPSIS of Text::Diff::Table
+    - RT#101553: updated FSF postal address in LICENSE
     - Added SEE ALSO section to doc, with links to a bunch of Diff modules.
     - Added link to github repository in the doc
     - Deleted META.yml from the repo -- EUMM will generate it for us
